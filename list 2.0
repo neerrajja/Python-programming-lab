@@ -1,0 +1,16 @@
+list1=[2,3,4,5,8]
+list2=[5,6,8,9,7]
+if len(list1)==len(list2):
+        print("the length of list are same")
+else:
+        print("the length of list are not same")
+print("the sum of elements in the list is",sum(list1))
+print("the sum of elements in list is",sum(list2))
+if sum(list1)==sum(list2):
+    print("sum of elements of lists are equal")
+else:
+    print("sum of elements are equal\n\n")
+print("the repeatin elements are:")
+for i in list1:
+    if i in list2:
+        print(i)
