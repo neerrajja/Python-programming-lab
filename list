@@ -1,0 +1,5 @@
+list=[5,7,8,-6,-8,-9]
+print("the given list:",list)
+print("positive numbers from given list of intergers is:" )
+list1=[i for i in list if i>0]
+print(list1)
