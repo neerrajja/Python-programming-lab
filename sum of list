@@ -1,0 +1,7 @@
+list1=[2,4,6,8]
+sum=0
+print("the list is",list1)
+for i in range(0,len(list1)):
+    s=list1[i]
+    sum=sum+s
+print("sum is",sum)
