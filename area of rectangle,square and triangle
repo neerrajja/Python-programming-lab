@@ -1,0 +1,11 @@
+rl=int(input("enter the length of the rectangle:"))
+rb=int(input("enter the breadth of the rectangle:"))
+rec_area=lambda a,b:a*b
+print("area of the rectangle is:",rec_area(rl,rb))
+h=int(input("height of the triangle:"))
+b=int(input("base of the triangle: "))
+tri_area=lambda a,b:1/2*a*b
+print("area of the triangle is:",tri_area(h,b))
+s=int(input("enter the side of the square:"))
+area_s=lambda a:a*a
+print("area of the square is:",area_s(s))
